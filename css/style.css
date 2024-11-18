@@ -6399,7 +6399,7 @@ width: max-content;
 .mt-0 {
 	margin-top: 0;
 }
-.contact-title{
+.contact-title-2{
 	font-size: 100px;
 	color: var(--main-hover);
 	text-align: center;
@@ -6416,7 +6416,7 @@ width: max-content;
 	.categories .swiper-wrapper{
 		display: flex;
 	}
-	.contact-title{
+	.contact-title-2{
 		font-size: 30px;
 		margin: 0 0 40px;
 	}
