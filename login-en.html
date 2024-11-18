@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>  Yamo / login </title>
+      
+      <link rel="stylesheet" href="css/line-awesome.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.css" />
+      <link rel="stylesheet" href="css/fonts.css" />
+      <link rel="stylesheet" href="css/animate.css" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body class="p-0">
+      <!-- preloader -->
+      <div class="preloader">
+         <div class="progress">
+            <div class="progress-bar"></div>
+         </div>
+      </div>
+      <!-- preloader -->
+      <!-- login -->
+      <div class="body-bg">
+         <div class="login-img">
+            <img class="img-responsive login-image" src="images/login-img.png" alt="login image">
+         </div>
+         <div class="login-text wow fadeInDown">
+            <div class="login-text-content">
+             
+               <h2 class="form-title">
+                welcome to yamo
+               </h2>
+               <form class="form-1">
+                  <label class="address-label">
+                     email
+                  </label>
+                  <div class="form-input-div mb-13">
+                     <input type="email" class="form-input-1" placeholder="  Enter your email here">
+                     
+                  </div>
+                  <label class="address-label">
+                     password
+                  </label>
+                  <div class="form-input-div">
+                     <input type="password" class="form-input-1" id="pass" placeholder="  Enter your password  ">
+                     
+                     <a onclick="togglePassword()">
+                     <i class="las la-eye-slash  password-icon" id="eye-slash" ></i>
+                     <i class=" las la-eye password-icon" id="eye" ></i>
+                     </a>
+                  </div>
+                  <a href="forget-password-en.html" class="forget-password-link">
+                  forget  password ?
+                  </a>
+                  <button class="submit-btn" type="submit">
+                  sign in
+                  </button>
+               </form>
+               <p class="form-text">
+                  Don't have an account?
+                  <a href="register-en.html" class="register-link">
+                  sign up
+                  </a>
+               </p>
+              
+            </div>
+         </div>
+        
+      </div>
+      <!-- login -->
+      <script>
+         function togglePassword() {
+             
+             var x = document.getElementById("pass");
+             var eyeSlash = document.getElementById("eye-slash");
+             var eye = document.getElementById("eye");
+             if (x.type === "password") {
+               x.type = "text";
+               eyeSlash.style.display="none";
+               eye.style.display="block";
+         
+             } else {
+               x.type = "password";
+               eyeSlash.style.display="block";
+               eye.style.display="none";
+             }
+           }
+      </script>
+      <script src="js/jquery-2.1.1.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>

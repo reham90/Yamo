@@ -1,0 +1,32 @@
+
+
+
+
+@font-face {
+    font-family: "Jost-SemiBold";
+    src: url("../webfonts/Jost/Jost-SemiBold.ttf") format("truetype") , url("../webfonts/Jost/Jost-SemiBold.woff") format("woff") ;
+    font-weight:600;
+    font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: "Jost-Bold";
+    src: url("../webfonts/Jost/Jost-Bold.ttf") format("truetype") , url("../webfonts/Jost/Jost-Bold.woff") format("woff") ;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Jost-ExtraBold";
+    src: url("../webfonts/Jost/Jost-ExtraBold.ttf") format("truetype") , url("../webfonts/Jost/Jost-ExtraBold.woff") format("woff") ;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
