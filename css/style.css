@@ -6406,6 +6406,12 @@ width: max-content;
 	margin: 0 0 80px;
 	text-transform: capitalize;
 }
+.form-notee{
+	font-size: 20px;
+	color: var(--main-hover);
+	display: block;
+	margin: 0 0 30px;
+}
 
 /*                            contact us page                                           */
 
